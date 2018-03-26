@@ -1,2 +1,5 @@
 body {
   background: red; }
+
+.navbar {
+  background-image: url("../assets/photograph-cover.jpg") no-repeat !important; }

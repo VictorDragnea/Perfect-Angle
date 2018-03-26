@@ -3,3 +3,7 @@ $bg-color: red;
 body {
     background: $bg-color;
 }
+
+.navbar {
+    background-image: url("../assets/photograph-cover.jpg") no-repeat !important;
+}
