@@ -2,8 +2,21 @@ $bg-color: red;
 
 body {
     background: $bg-color;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-.navbar {
-    background-image: url("../assets/photograph-cover.jpg") no-repeat !important;
+.header {
+    background-color: white;
+    background: url("../assets/photograph-cover.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-right: none;
+    border-left: none;
+
+}
+
+.jumbotron {
+    background: transparent !important;
 }
