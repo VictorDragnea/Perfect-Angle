@@ -1,16 +1,28 @@
 body {
-  background: red;
-  font-family: 'Barlow Semi Condensed', sans-serif; }
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #fff; }
 
-.header {
-  background-color: white;
-  background: url("../assets/photograph-cover.jpg") no-repeat center top fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-right: none;
-  border-left: none; }
+body, html {
+  height: 100%; }
 
-.jumbotron {
-  background: transparent !important; }
+a {
+  color: #fff; }
+
+header {
+  padding: 15px 15px 0px 15px; }
+  header .homepage-hero-module {
+    background: url("../assets/photograph-cover.jpg") top fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: none;
+    border-left: none; }
+    header .homepage-hero-module .overlay {
+      bottom: 0;
+      background: rgba(43, 54, 63, 0.5) none repeat scroll 0 0;
+      bottom: 15px;
+      left: 15px;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      z-index: 0; }
