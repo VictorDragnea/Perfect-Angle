@@ -3,7 +3,7 @@ $bg-color: red;
 body {
     //background: $bg-color;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    color: #fff;
+    color: red;
 }
 
 body, html {
@@ -25,13 +25,26 @@ header {
         border-left: none;
         .overlay {
             bottom: 0;
-            background: rgba(43,54,63,0.5) none repeat scroll 0 0;
+            background: rgba(43,54,63,0.2) none repeat scroll 0 0;
             bottom: 15px;
             left: 15px;
             position: absolute;
             right: 15px;
             top: 15px;
             z-index: 0;
+            height: 100vh;
+        }
+        .vertical-center {
+            min-height: 100vh;
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            h1 {
+                font-weight: 500;
+            }
+            .lead {
+                font-size: 1rem;
+            }
         }
     }
 }
