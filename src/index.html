@@ -20,7 +20,7 @@
                 <div class="homepage-hero-module" data-type="background" style="height: 100vh">
                     <div class="overlay"></div>
                     <nav class="navbar navbar-expand-lg navbar-dark">
-                        <a class="navbar-brand" href="#">Company Name</a>
+                        <a class="navbar-brand" href="#">Perfect Angle</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -61,8 +61,8 @@
             </header>
   
             <div class="main container-fluid">
-                <!-- photo enthusiasts/buyer row -->
-                <div class="row mx-5 my-4"> 
+                <!-- photo enthusiasts/buyer row :start -->
+                <div class="row mx-5 my-4" id="enthusiastBuyer"> 
                     <div class="col-xs-12 col-sm-6">
                         <div class="card">
                             <div class="card-body text-center">
@@ -91,71 +91,57 @@
                         </div>
                     </div>
                 </div>
-                
+                <!-- photo enthusiasts/buyer row :end -->
                 <hr>
                 
-                <!-- collection row -->
-                <div class="row mx-5 my-4">
-                    <div class="container col-sm-6">
-                        <div class="row">
-                            <div class="card photo col-sm-12" >
-                                <div class="card-body pb-0 text-center" id="nuts">
-                                    <img src="../assets/images/nuts.jpg" class="img-fluid" alt="nuts image">
+                <!-- collections row  :start -->
+                <div id="collections">    
+                    <div class="row mx-5 my-2 no-gutters">
+                        <div class="col-sm-6 collections_left pr-1">
+                            <div class="row h-100 no-gutters">
+                                <div class="col-sm-12 pb-1 nuts">
+                                    <div class="card photo h-100" >
+                                        <img src="../assets/images/nuts.jpg" class="img-fluid" id="nutsPicture" alt="nuts image">
+                                    </div>
                                 </div>
+                                <div class="col-sm-12 py-1 cat">
+                                    <div class="card photo h-100" >
+                                        <img src="../assets/images/cat.jpg" class="img-fluid" id="catPicture" alt="cat image">
+                                    </div>
+                                </div> 
+                                
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="card photo col-sm-12">
-                                <div class="card-body pt-0 text-center" id="cat">
-                                    <img src="../assets/images/cat.jpg" class="img-fluid" alt="cat image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container col-sm-6">
-                        <div class="row">
-                            <div class="card photo col-sm-12" >
-                                <div class="card-body text-center" id="youngGirl">
-                                    <img src="../assets/images/young-girl.jpg" class="img-fluid img-thumbnail" alt="young-girl image">
+                        <div class="col-sm-6 collections_right pl-1 pb-1">
+                            <div class="row no-gutters">
+                                <div class="card photo" >
+                                    <img src="../assets/images/young-girl.jpg" class="img-fluid" id="youngGirlPicture" alt="young-girl image">
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="container col-sm-12">
-                        <div class="row">
-                            <div class="card photo" >
-                                <div class="card-body text-center" id="blueSkirt">
-                                    <img src="../assets/images/blue-skirt.jpg" class="img-fluid" alt="blue-skirt-girl image">
-                                </div>
-                            </div>
+                    <div class="row mx-5 my-2 no-gutters">
+                        <div class="card photo col-sm-12" >
+                            <img src="../assets/images/blue-skirt.jpg" class="img-fluid" id="blueSkirt" alt="blue-skirt-girl image">
                         </div>
                     </div>
 
-                    <div class="container col-sm-12">
-                        <div class="row">
-                            <div class="card photo col-sm-4" >
-                                <div class="card-body text-center" id="city">
-                                    <img src="../assets/images/city.jpg" class="img-fluid" alt="city image">
-                                </div>
-                            </div>
-                            <div class="card photo col-sm-4" >
-                                <div class="card-body text-center" id="hills">
-                                    <img src="../assets/images/hills.jpg" class="img-fluid" alt="hills image">
-                                </div>
-                            </div>
-                            <div class="card photo col-sm-4" >
-                                <div class="card-body text-center" id="ballerina">
-                                    <img src="../assets/images/ballerina.jpg" class="img-fluid" alt="ballerina image">
-                                </div>
-                            </div>
+                    <div class="row mx-5 my-2 no-gutters">
+                        <div class="card photo col-sm-4" >
+                            <img src="../assets/images/city.jpg" class="img-fluid" id="city" alt="city image">
+                        </div>
+                        <div class="card photo col-sm-4" >
+                            <img src="../assets/images/hills.jpg" class="img-fluid" id="hills" alt="hills image">
+                        </div>
+                        <div class="card photo col-sm-4" >
+                            <img src="../assets/images/ballerina.jpg" class="img-fluid" id="ballerina" alt="ballerina image">
                         </div>
                     </div>
+                </div>
+                <!-- collections row  :end -->        
 
-                </div> 
-
-                <!-- simple pricing row  -->
+                <!-- simple pricing row :start -->
                 <div class="row mx-5 my-4">
                     <div class="col-sm-12 mt-4">
                         <div class="card">
@@ -167,8 +153,9 @@
                         </div>
                     </div>
                 </div>
+                <!-- simple pricing row :end -->
 
-                <!-- pricing cards row -->
+                <!-- pricing cards row :start -->
                 <div class="row mx-5 my-4">    
                     <div class="col-xs-6 col-sm-3">
                         <div class="card">
@@ -212,6 +199,7 @@
                         </div>
                     </div>
                 </div> 
+                <!-- pricing cards row :end -->
 
             </div>
 
