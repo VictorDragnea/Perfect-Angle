@@ -4,6 +4,7 @@ body {
     //background: $bg-color;
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: red;
+    box-sizing: border-box;
 }
 
 body, html {
@@ -53,6 +54,11 @@ header {
 
     } 
     #collections {
+        .three-inline-photos-row {
+            .card {
+                border: none;
+            }
+        }
         img {
             width: 100%;
             height: 100%;

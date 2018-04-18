@@ -1,6 +1,7 @@
 body {
   font-family: 'Barlow Semi Condensed', sans-serif;
-  color: red; }
+  color: red;
+  box-sizing: border-box; }
 
 body, html {
   height: 100%; }
@@ -36,6 +37,9 @@ header {
         font-weight: 500; }
       header .homepage-hero-module .vertical-center .lead {
         font-size: 1rem; }
+
+.main #collections .three-inline-photos-row .card {
+  border: none; }
 
 .main #collections img {
   width: 100%;
